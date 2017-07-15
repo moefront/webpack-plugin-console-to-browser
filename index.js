@@ -20,6 +20,7 @@ module.exports = class ConsoleToBrowserPlugin {
 			'',
 			'// webpack-plugin-console-to-browser bootstrap',
 			'(function() {',
+			'  if (typeof window == "undefined") return;',
 			'  var scriptDom = document.createElement("script");',
 			'  scriptDom.setAttribute("type", "text/javascript");',
 			'  scriptDom.setAttribute("src", "http://localhost:23233/assistant.js");',
