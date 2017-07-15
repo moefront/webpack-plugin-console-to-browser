@@ -1,0 +1,20 @@
+{
+  "name": "webpack-plugin-console-to-browser",
+  "version": "1.0.0",
+  "description": "A webpack plugin for transporting warnings and erros from webpack console to browser console.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "plugin"
+  ],
+  "author": "moefront",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "sockjs": "^0.3.18",
+    "strip-ansi": "^4.0.0"
+  }
+}
